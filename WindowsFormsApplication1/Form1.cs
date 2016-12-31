@@ -198,8 +198,7 @@ namespace WindowsFormsApplication1
 
         private void VyrobnaLinka_Resize(object sender, EventArgs e)
         {
-            //s = this.Width / 1800f;
-            s = 1;
+            s = this.Width / 1800f;
             btnStart.Left = this.Width / 2 - 100;
             btnStop.Left = this.Width / 2 + 100;
             Invalidate();
